@@ -5,6 +5,10 @@
   font-family: "Parkinsans", sans-serif;
 }
 
+body {
+  background-color: #ffd9cc;
+}
+
 section {
   background-color: #f7e5ec;
   padding: 20px;
@@ -13,8 +17,8 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  background-color: #ffd9cc;
+.aboutMe {
+  background-color: #d28a8c;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
@@ -38,12 +42,10 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #ffd9cc;
   gap: 20px;
 }
 
 nav {
-  border: 1px solid #d28a8c;
   justify-content: center;
   padding: 20px;
 }
@@ -69,4 +71,45 @@ nav ul {
 
 .linkTab:hover {
   background-color: #f7e5ec;
+}
+
+/* my digital diary */
+.diaryContainer {
+  /* background-color: #ffd9cc; */
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#cardContainer {
+  text-align: center;
+  background-color: #eebec6;
+  border: 2px solid #f49595;
+  border-radius: 10px;
+  width: 250px;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clickMore {
+  margin-top: 10px;
+  color: #f49595;
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 9px;
+  text-decoration: none;
+}
+
+/* footer */
+footer {
+  background-color: #eebec6;
+  padding: 20px;
+  margin-top: 50px;
 }
